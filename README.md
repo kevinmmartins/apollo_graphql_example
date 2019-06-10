@@ -22,7 +22,10 @@ Run:
 query{
   peoples {
     name,
-    age
+    age,
+    document {
+      registry
+    }
   }
 }
 ```
