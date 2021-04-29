@@ -1,0 +1,14 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "08:00"
+  open-pull-requests-limit: 99
+  ignore:
+  - dependency-name: apollo-server
+    versions:
+    - 2.20.0
+    - 2.21.0
+    - 2.21.2
