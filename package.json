@@ -20,6 +20,6 @@
   "homepage": "https://github.com/kevinmmartins/apollo_graphql_example#readme",
   "dependencies": {
     "apollo-server": "^3.12.0",
-    "graphql": "^16.6.0"
+    "graphql": "^16.7.0"
   }
 }
